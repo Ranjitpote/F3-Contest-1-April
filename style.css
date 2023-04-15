@@ -1,0 +1,55 @@
+body {
+  background-color: black;
+  color: white;
+  padding: 0px;
+  margin: 20px;
+  font-family: sans-serif;
+}
+input {
+  background-color: black;
+  border: 1px solid white;
+  line-height: 30px;
+  width: 370px;
+  color: white;
+}
+.input {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 20px;
+  justify-content: space-around;
+}
+
+.labels {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+#addEmployee {
+  margin-top: 30px;
+  margin-left: 25px;
+  width: 120px;
+  height: 35px;
+  font-weight: 700;
+  border-radius: 0%;
+}
+
+#employeeTable ,tr {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  border: 1px solid white;
+  border-radius: 15px ;
+  line-height: 30px;
+  border-radius: 10px;
+  
+}
+
+button{
+    background-color: aliceblue;
+    color: black;
+    border-radius: 10px;
+    border: 1px solid;
+    width: 100px;
+}
